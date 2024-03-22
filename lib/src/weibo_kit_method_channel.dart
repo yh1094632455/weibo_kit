@@ -104,7 +104,7 @@ class MethodChannelWeiboKit extends WeiboKitPlatform {
     bool clientOnly = false,
   }) {
     assert(text == null || text.length <= 1024);
-    assert((imageData != null && imageData.lengthInBytes <= 2 * 1024 * 1024) ||
+    assert((imageData != null) ||
         (imageUri != null &&
             imageUri.isScheme('file') &&
             imageUri.toFilePath().length <= 512 &&
