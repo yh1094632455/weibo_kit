@@ -25,7 +25,7 @@ A powerful Flutter plugin allowing developers to auth/share with natvie Android 
   # v3.3.0
   s.static_framework = true
   s.subspec 'vendor' do |sp|
-    sp.dependency 'Weibo_SDK', '~> 3.3.0'
+    sp.dependency 'Weibo_SDK', '3.3.0'
   end
 
   # Flutter.framework does not contain a i386 slice.
